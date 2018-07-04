@@ -45,19 +45,3 @@ plt.axis("off")
 plt.imshow(auxImg)
 
 plt.show()
-
-####cv2.imshow('OriginalImage',img)
-##cv2.imshow('GraysacleImage',GrayscaleImage)
-##cv2.imshow('BlurredImage',GrayscaleImage)
-##k = cv2.waitKey(0)
-##if k == 27:         # wait for ESC key to exit
-##    cv2.destroyAllWindows()
-
-##fig, ax = plt.subplots()
-##t = np.arange(0.0, iterations, 1.0)
-##ax.set(xlabel='iterations', ylabel='Cost',
-##       title='LOGISTIC REGRESION')
-##ax.plot(t, J)
-##ax.grid()
-##fig.savefig("logistec.png")
-##plt.show()
